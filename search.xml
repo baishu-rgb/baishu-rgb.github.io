@@ -2,9 +2,8 @@
 <search>
   <entry>
     <title>教程：全网通用视频下载</title>
-    <url>/2022/04/08/2022-4-6-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h1 id="lux-amp-yt-dlp-的使用教程及-Open-with-扩展搭配使用"><a href="#lux-amp-yt-dlp-的使用教程及-Open-with-扩展搭配使用" class="headerlink" title="lux &amp; yt-dlp 的使用教程及 Open with 扩展搭配使用"></a>lux &amp; yt-dlp 的使用教程及 Open with 扩展搭配使用</h1><p>[toc]</p>
-<blockquote>
+    <url>/2022/04/08/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
 <p>现在的视频网站越来越离谱，一不给下载视频，二给下载视频还加密，三下载视频还会限速，不过，只要掌握了lux yt-dlp 的配置和用法，就不会被这些视频网站宰割了（注意：本文有大量高清图片和GIF动图作辅助演示只用，请注意流量！</p>
 </blockquote>
 <h2 id="1-准备阶段"><a href="#1-准备阶段" class="headerlink" title="1. 准备阶段"></a>1. 准备阶段</h2><ol>
