@@ -1,72 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>录屏截图GIF录制桌面软件推荐</title>
-    <url>/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<p>常常有人问：如何截屏？如何录GIF？如何截图？笔者就在这里给大家统一推荐一下</p>
-<h2 id="桌面录屏-OBS"><a href="#桌面录屏-OBS" class="headerlink" title="桌面录屏-OBS"></a>桌面录屏-OBS</h2><p>笔者  要推荐的就是大名鼎鼎的<a href="https://obsproject.com/">OBS</a>了，也许在大家的印象中，这就是个直播推流软件，毕竟软件官网如此写道。但是它的的录屏功能也尤为强大，不仅是桌面录屏还是指定窗口录制，它都可以完美胜任，且它的画质我认为是最好的。OBS是个开源软件，所以不用担心各种限制与广告，而且背后有大佬撑腰，所以也不用担心稳定性的问题。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/new_icon_small-r.png" alt="p1"></p>
-<h3 id="录屏简易教程"><a href="#录屏简易教程" class="headerlink" title="录屏简易教程"></a>录屏简易教程</h3><p>虽然OBS如此好用，但它的使用也相对复杂，这里笔者就提一下简单的录屏教程。</p>
-<ol>
-<li><p>从官网下载软件包并安装，随后打开软件，点击场景下的加号以添加场景，在窗口中取一个名字，然后创建。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-52-01.png" alt="p2"></p>
-</li>
-<li><p>点击来源窗口下的加号，然后点击显示器采集。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-53-34.png" alt="p3"></p>
-</li>
-<li><p>在弹出的窗口中取一个喜欢的名字。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-54-56.png" alt="p4"></p>
-</li>
-</ol>
-<p>4.在弹出的窗口中点击确定，然后点击开始录制按钮就可以开始录制了，停止录制是在软件窗口中点击停止录制。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-55-53.png" alt="p4"></p>
-<hr>
-<p><strong>快捷键设置</strong></p>
-<p>点击文件-设置-热键就可以设置快捷键了，可以实现快捷键开始录制与关闭，还可以开始与暂停，窗口如下图，在这贴一下笔者的设置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-56-29.png" alt="p6"></p>
-<p>其实OBS的设置与可玩性都非常强，因为本文是推荐文性质，所以不多加介绍，有兴趣与有特定需求的朋友可以自行百度，笔者在这只写非常非常基础的内容教程，望大家理解。</p>
-<h2 id="桌面截图-Snipaste"><a href="#桌面截图-Snipaste" class="headerlink" title="桌面截图- Snipaste"></a>桌面截图- Snipaste</h2><p>市场上的截图软件可谓是百家争鸣，在这就推荐笔者最喜欢的<a href="https://www.snipaste.com/">Snipaste</a>吧。</p>
-<h3 id="功能演示"><a href="#功能演示" class="headerlink" title="功能演示"></a>功能演示</h3><p>Snipaste的功能特别简单，只需要简单的设置一下快捷键与保存位置与是否开机启动就可以了，下面是快捷键及其他设置的界面演示：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-18_19-49-40.png" alt="1"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-21.png" alt="11"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-26.png" alt="12"></p>
-<hr>
-<p><strong>截屏并处理</strong></p>
-<p>正常的截屏，可以进行简易的处理，如下图</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/%E5%8A%9F%E8%83%BD2.gif" alt="2"></p>
-<p><strong>截屏并自动保存</strong></p>
-<p>快速截屏，如下图</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/%E5%8A%9F%E8%83%BD1.gif" alt="33"></p>
-<p><strong>截屏并贴屏</strong></p>
-<p>贴屏算是Snipaste的一个特色功能了，这也是我喜欢它的另一个主要原因</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/%E5%8A%9F%E8%83%BD3.gif" alt="功能3"></p>
-<h2 id="GIF录制-ScreenToGif"><a href="#GIF录制-ScreenToGif" class="headerlink" title="GIF录制-ScreenToGif"></a>GIF录制-ScreenToGif</h2><p>这里要推荐的就是笔者认为最好最简洁（官网还提供单文件版与绿色版，非常良心）的ScreenToGIF了，这与OBS一样也是一款开源软件</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-21-39.png" alt="Snipaste_2022-04-23_13-21-39"></p>
-<h3 id="功能演示-1"><a href="#功能演示-1" class="headerlink" title="功能演示"></a>功能演示</h3><p>点击录像机就可以开始录制了，界面（笔者调整了大小）如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-22-45.png" alt="Snipaste_2022-04-23_13-22-45"></p>
-<ol>
-<li><p>点击录制开始录制，左边的选项可以调整帧数和分辨率</p>
-</li>
-<li><p>录制中可以暂停，录制好了结束录制，界面如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-24-54.png" alt="Snipaste_2022-04-23_13-24-54"></p>
-</li>
-<li><p>停止后的界面如下图：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-25-52.png" alt="Snipaste_2022-04-23_13-25-52"></p>
-</li>
-</ol>
-<p>点击文件可以保存，点击编辑可以对GIF动图进行编辑，保存动图如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/GIF1.gif" alt="GIF1"></p>
-<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>本篇推荐结束了，笔者推荐的也许不多，但绝对是精品</p>
-]]></content>
-      <categories>
-        <category>推荐</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-        <tag>视频</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>教程：全网通用视频下载</title>
     <url>/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<hr>
@@ -170,6 +104,72 @@
       <tags>
         <tag>视频</tag>
         <tag>下载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>录屏截图GIF录制桌面软件推荐</title>
+    <url>/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<p>常常有人问：如何截屏？如何录GIF？如何截图？笔者就在这里给大家统一推荐一下</p>
+<h2 id="桌面录屏-OBS"><a href="#桌面录屏-OBS" class="headerlink" title="桌面录屏-OBS"></a>桌面录屏-OBS</h2><p>笔者  要推荐的就是大名鼎鼎的<a href="https://obsproject.com/">OBS</a>了，也许在大家的印象中，这就是个直播推流软件，毕竟软件官网如此写道。但是它的的录屏功能也尤为强大，不仅是桌面录屏还是指定窗口录制，它都可以完美胜任，且它的画质我认为是最好的。OBS是个开源软件，所以不用担心各种限制与广告，而且背后有大佬撑腰，所以也不用担心稳定性的问题。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/new_icon_small-r.png" alt="p1"></p>
+<h3 id="录屏简易教程"><a href="#录屏简易教程" class="headerlink" title="录屏简易教程"></a>录屏简易教程</h3><p>虽然OBS如此好用，但它的使用也相对复杂，这里笔者就提一下简单的录屏教程。</p>
+<ol>
+<li><p>从官网下载软件包并安装，随后打开软件，点击场景下的加号以添加场景，在窗口中取一个名字，然后创建。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-52-01.png" alt="p2"></p>
+</li>
+<li><p>点击来源窗口下的加号，然后点击显示器采集。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-53-34.png" alt="p3"></p>
+</li>
+<li><p>在弹出的窗口中取一个喜欢的名字。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-54-56.png" alt="p4"></p>
+</li>
+</ol>
+<p>4.在弹出的窗口中点击确定，然后点击开始录制按钮就可以开始录制了，停止录制是在软件窗口中点击停止录制。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-55-53.png" alt="p4"></p>
+<hr>
+<p><strong>快捷键设置</strong></p>
+<p>点击文件-设置-热键就可以设置快捷键了，可以实现快捷键开始录制与关闭，还可以开始与暂停，窗口如下图，在这贴一下笔者的设置。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-56-29.png" alt="p6"></p>
+<p>其实OBS的设置与可玩性都非常强，因为本文是推荐文性质，所以不多加介绍，有兴趣与有特定需求的朋友可以自行百度，笔者在这只写非常非常基础的内容教程，望大家理解。</p>
+<h2 id="桌面截图-Snipaste"><a href="#桌面截图-Snipaste" class="headerlink" title="桌面截图- Snipaste"></a>桌面截图- Snipaste</h2><p>市场上的截图软件可谓是百家争鸣，在这就推荐笔者最喜欢的<a href="https://www.snipaste.com/">Snipaste</a>吧。</p>
+<h3 id="功能演示"><a href="#功能演示" class="headerlink" title="功能演示"></a>功能演示</h3><p>Snipaste的功能特别简单，只需要简单的设置一下快捷键与保存位置与是否开机启动就可以了，下面是快捷键及其他设置的界面演示：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-18_19-49-40.png" alt="1"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-21.png" alt="11"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-26.png" alt="12"></p>
+<hr>
+<p><strong>截屏并处理</strong></p>
+<p>正常的截屏，可以进行简易的处理，如下图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/%E5%8A%9F%E8%83%BD2.gif" alt="2"></p>
+<p><strong>截屏并自动保存</strong></p>
+<p>快速截屏，如下图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/%E5%8A%9F%E8%83%BD1.gif" alt="33"></p>
+<p><strong>截屏并贴屏</strong></p>
+<p>贴屏算是Snipaste的一个特色功能了，这也是我喜欢它的另一个主要原因</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/%E5%8A%9F%E8%83%BD3.gif" alt="功能3"></p>
+<h2 id="GIF录制-ScreenToGif"><a href="#GIF录制-ScreenToGif" class="headerlink" title="GIF录制-ScreenToGif"></a>GIF录制-ScreenToGif</h2><p>这里要推荐的就是笔者认为最好最简洁（官网还提供单文件版与绿色版，非常良心）的ScreenToGIF了，这与OBS一样也是一款开源软件</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-21-39.png" alt="Snipaste_2022-04-23_13-21-39"></p>
+<h3 id="功能演示-1"><a href="#功能演示-1" class="headerlink" title="功能演示"></a>功能演示</h3><p>点击录像机就可以开始录制了，界面（笔者调整了大小）如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-22-45.png" alt="Snipaste_2022-04-23_13-22-45"></p>
+<ol>
+<li><p>点击录制开始录制，左边的选项可以调整帧数和分辨率</p>
+</li>
+<li><p>录制中可以暂停，录制好了结束录制，界面如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-24-54.png" alt="Snipaste_2022-04-23_13-24-54"></p>
+</li>
+<li><p>停止后的界面如下图：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-25-52.png" alt="Snipaste_2022-04-23_13-25-52"></p>
+</li>
+</ol>
+<p>点击文件可以保存，点击编辑可以对GIF动图进行编辑，保存动图如下：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/GIF1.gif" alt="GIF1"></p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>本篇推荐结束了，笔者推荐的也许不多，但绝对是精品</p>
+]]></content>
+      <categories>
+        <category>推荐</category>
+      </categories>
+      <tags>
+        <tag>视频</tag>
+        <tag>图片</tag>
       </tags>
   </entry>
 </search>
