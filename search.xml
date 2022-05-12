@@ -100,7 +100,7 @@
 <li>将dll拖入到App文件夹（有chrome.exe的文件夹）<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-06-13.png" alt="5"></li>
 <li>运行chrome.exe 出现一下界面，这时，程序会创建Date存放数据，这就是一个便携版chrome了，你可以压缩打包随时使用<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-36-29.png" alt="6"><br>开始愉快地使用便携版浏览器吧🎇</li>
 </ol>
-<h2 id="4-杂七杂八的技巧"><a href="#4-杂七杂八的技巧" class="headerlink" title="4. 杂七杂八的技巧"></a>4. 杂七杂八的技巧</h2><ul>
+<h2 id="4-后记"><a href="#4-后记" class="headerlink" title="4. 后记"></a>4. 后记</h2><ul>
 <li>自动生成桌面快捷方式的bat文件<blockquote>
 <p>笔者不知道有没有用，但既然有就分享一下</p>
 </blockquote>
