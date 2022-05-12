@@ -77,11 +77,11 @@
 <li>鼠标悬停标签栏滚动</li>
 <li>按住右键时滚轮滚动标签栏</li>
 <li>便携设计，程序放在App目录，数据放在Data目录（不兼容原版数据，可以重装系统换电脑不丢数据）</li>
-</ul>
-<p>-移除更新错误警告（因为是绿色版没有自动更新功能）</p>
-<blockquote>
+<li>移除更新错误警告（因为是绿色版没有自动更新功能）<blockquote>
 <p>就便携设计笔者还要夸一句，数据是64，32位通用的，给一个大大的赞👍</p>
 </blockquote>
+</li>
+</ul>
 <h2 id="2-准备事项"><a href="#2-准备事项" class="headerlink" title="2. 准备事项"></a>2. 准备事项</h2><ul>
 <li>Chrome离线安装包 <a href="https://www.iplaysoft.com/tools/chrome/">下载链接</a></li>
 <li>Chrome++插件 <a href="https://nightly.link/shuax/chrome_plus/workflows/build/main">下载链接</a> <a href="https://github.com/shuax/chrome_plus">官网</a></li>
