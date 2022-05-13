@@ -54,69 +54,6 @@
       </tags>
   </entry>
   <entry>
-    <title>用Chrome++制作便携Chrome浏览器</title>
-    <url>/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
-    <content><![CDATA[<hr>
-<p>原版的Chrome有诸多不便，比如不可用的同步，反人类的设置和限制，当然，有压迫就有反抗，民间有诸多优秀的Chrome增强软件，比如：MyChrome,Greenchrome,Chrome++等，今天，笔者就给大家详细介绍一下Chrome++的使用教程。</p>
-<blockquote>
-<p>随着时间的推移可能会失效，请谨慎</p>
-</blockquote>
-<h2 id="Chrome-的功能列表"><a href="#Chrome-的功能列表" class="headerlink" title="Chrome++的功能列表"></a>Chrome++的功能列表</h2><ul>
-<li>双击关闭标签页</li>
-<li>保留最后标签页（防止关闭最后一个标签页时关闭浏览器，点X不行）</li>
-<li>鼠标悬停标签栏滚动</li>
-<li>按住右键时滚轮滚动标签栏</li>
-<li>便携设计，程序放在App目录，数据放在Data目录（不兼容原版数据，可以重装系统换电脑不丢数据）</li>
-<li>移除更新错误警告（因为是绿色版没有自动更新功能）<blockquote>
-<p>就便携设计笔者还要夸一句，数据是64，32位通用的，给一个大大的赞👍</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="准备事项"><a href="#准备事项" class="headerlink" title="准备事项"></a>准备事项</h2><ul>
-<li>Chrome离线安装包 <a href="https://www.iplaysoft.com/tools/chrome/">下载链接</a></li>
-<li>Chrome++插件 <a href="https://nightly.link/shuax/chrome_plus/workflows/build/main">下载链接</a> <a href="https://github.com/shuax/chrome_plus">官网</a></li>
-<li>7-ZIP</li>
-<li>一定的动手能力</li>
-</ul>
-<p><strong>准备好了就一起来做吧！</strong></p>
-<h2 id="制作教程"><a href="#制作教程" class="headerlink" title="制作教程"></a>制作教程</h2><blockquote>
-<p>多少位的浏览器用多少位的chrome++。笔者以64位作为演示，随着时间的推移，教程可以会有点陈旧</p>
-</blockquote>
-<ol>
-<li>下载好Chrome++压缩包和Chrome离线安装包<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-20-47.png" alt="1"></li>
-<li>用7Z将Chrome离线安装包提取一次，得到一个 Chrome.7z ，再解压一次，得到一个 chrome-bin 文件夹，里面有一个以安装包版本为名的文件夹和两个exe文件<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-21-03.png" alt="2"></li>
-<li>将 Chrome-bin 文件夹中的两个exe放在那个以版本号为名的文件夹中，将 Chrome-bin 文件夹取一个你喜欢的名，笔者这里命名为 Chrome版本号为名的文件夹也取一个你喜欢的名，笔者这里命名为 APP<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-23-14.png" alt="3"></li>
-<li>将Chrome++的压缩包解压，得到一个dll<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-55-04.png" alt="4"></li>
-<li>将dll拖入到App文件夹（有chrome.exe的文件夹）<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-06-13.png" alt="5"></li>
-<li>运行chrome.exe 出现一下界面，这时，程序会创建Date存放数据，这就是一个便携版chrome了，你可以压缩打包随时使用<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-36-29.png" alt="6"><br>开始愉快地使用便携版浏览器吧🎇<h2 id="更新教程"><a href="#更新教程" class="headerlink" title="更新教程"></a>更新教程</h2><blockquote>
-<p>便携式浏览器更新比较麻烦，但也有一些软件支持自动更新，笔者这里演示一下如何手动更新</p>
-</blockquote>
-</li>
-<li>下载好新版本Chrome离线安装包<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-12_15-33-55.png" alt="7"></li>
-<li>如上文一样解压，解压到Chrome-bin<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-12_15-35-28.png" alt="8"></li>
-<li>将那两个EXE放在那个数字文件夹中并将这个文件夹命名为你想更新的浏览器的程序文件夹的名字，我这里演示是App<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-12_15-35-54.png" alt="9"></li>
-<li>将新版本App文件夹覆盖到旧版App，如下面的动图<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/19.gif" alt="10"><br>好了，我们更新好了<blockquote>
-<p>旧版中应该有chrome++的dll，更新后才是便携版</p>
-</blockquote>
-<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2></li>
-</ol>
-<ul>
-<li>自动生成桌面快捷方式的bat文件<blockquote>
-<p>笔者不知道有没有用，但既然有就分享一下</p>
-</blockquote>
-<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">set</span> WshShell = WScript.CreateObject(&quot;WScript.Shell&quot;)&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> strDesktop = WshShell.SpecialFolders(&quot;Desktop&quot;)&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">set</span> oShellLink = WshShell.CreateShortcut(strDesktop ^&amp; &quot;\Google Chrome.lnk&quot;)&gt;&gt;tmp.vbs #改名字 </span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.TargetPath =&quot;%~dp0.\App\chrome.exe&quot;&gt;&gt;tmp.vbs #改目录</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.WindowStyle =&quot;<span class="number">1</span>&quot;&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.Hotkey = &quot;CTRL+<span class="built_in">SHIFT</span>+Q&quot;&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.IconLocation = &quot;%~dp0.\App\chrome.exe, <span class="number">0</span>&quot;&gt;&gt;tmp.vbs #改快捷方式图标索引</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.Description = &quot;Google Chrome&quot;&gt;&gt;tmp.vbs #改名字</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.WorkingDirectory = strDesktop&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.Save&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="keyword">call</span> tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /q tmp.vbs</span><br></pre></td></tr></table></figure></li>
-<li>Chrome++的数据文件夹Date是不分32，64位浏览器，分享制作的话很方便</li>
-<li>笔者分享一个笔者制作的优化版浏览器吧，也是Chrome++，还加了一些扩展，脚本 <a href="https://cloud.189.cn/web/share?code=RZFRzq3Q7nmu">下载地址，提取码：yv9t</a><br>这篇文章结束了，感谢大家的观看</li>
-</ul>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>浏览器</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>教程：全网通用视频下载</title>
     <url>/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<hr>
@@ -220,6 +157,69 @@
       <tags>
         <tag>视频</tag>
         <tag>下载</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用Chrome++制作便携Chrome浏览器</title>
+    <url>/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
+    <content><![CDATA[<hr>
+<p>原版的Chrome有诸多不便，比如不可用的同步，反人类的设置和限制，当然，有压迫就有反抗，民间有诸多优秀的Chrome增强软件，比如：MyChrome,Greenchrome,Chrome++等，今天，笔者就给大家详细介绍一下Chrome++的使用教程。</p>
+<blockquote>
+<p>随着时间的推移可能会失效，请谨慎</p>
+</blockquote>
+<h2 id="Chrome-的功能列表"><a href="#Chrome-的功能列表" class="headerlink" title="Chrome++的功能列表"></a>Chrome++的功能列表</h2><ul>
+<li>双击关闭标签页</li>
+<li>保留最后标签页（防止关闭最后一个标签页时关闭浏览器，点X不行）</li>
+<li>鼠标悬停标签栏滚动</li>
+<li>按住右键时滚轮滚动标签栏</li>
+<li>便携设计，程序放在App目录，数据放在Data目录（不兼容原版数据，可以重装系统换电脑不丢数据）</li>
+<li>移除更新错误警告（因为是绿色版没有自动更新功能）<blockquote>
+<p>就便携设计笔者还要夸一句，数据是64，32位通用的，给一个大大的赞👍</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="准备事项"><a href="#准备事项" class="headerlink" title="准备事项"></a>准备事项</h2><ul>
+<li>Chrome离线安装包 <a href="https://www.iplaysoft.com/tools/chrome/">下载链接</a></li>
+<li>Chrome++插件 <a href="https://nightly.link/shuax/chrome_plus/workflows/build/main">下载链接</a> <a href="https://github.com/shuax/chrome_plus">官网</a></li>
+<li>7-ZIP</li>
+<li>一定的动手能力</li>
+</ul>
+<p><strong>准备好了就一起来做吧！</strong></p>
+<h2 id="制作教程"><a href="#制作教程" class="headerlink" title="制作教程"></a>制作教程</h2><blockquote>
+<p>多少位的浏览器用多少位的chrome++。笔者以64位作为演示，随着时间的推移，教程可以会有点陈旧</p>
+</blockquote>
+<ol>
+<li>下载好Chrome++压缩包和Chrome离线安装包<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-20-47.png" alt="1"></li>
+<li>用7Z将Chrome离线安装包提取一次，得到一个 Chrome.7z ，再解压一次，得到一个 chrome-bin 文件夹，里面有一个以安装包版本为名的文件夹和两个exe文件<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-21-03.png" alt="2"></li>
+<li>将 Chrome-bin 文件夹中的两个exe放在那个以版本号为名的文件夹中，将 Chrome-bin 文件夹取一个你喜欢的名，笔者这里命名为 Chrome版本号为名的文件夹也取一个你喜欢的名，笔者这里命名为 APP<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-23-14.png" alt="3"></li>
+<li>将Chrome++的压缩包解压，得到一个dll<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-55-04.png" alt="4"></li>
+<li>将dll拖入到App文件夹（有chrome.exe的文件夹）<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-06-13.png" alt="5"></li>
+<li>运行chrome.exe 出现一下界面，这时，程序会创建Date存放数据，这就是一个便携版chrome了，你可以压缩打包随时使用<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-36-29.png" alt="6"><br>开始愉快地使用便携版浏览器吧🎇<h2 id="更新教程"><a href="#更新教程" class="headerlink" title="更新教程"></a>更新教程</h2><blockquote>
+<p>便携式浏览器更新比较麻烦，但也有一些软件支持自动更新，笔者这里演示一下如何手动更新</p>
+</blockquote>
+</li>
+<li>下载好新版本Chrome离线安装包<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-12_15-33-55.png" alt="7"></li>
+<li>如上文一样解压，解压到Chrome-bin<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-12_15-35-28.png" alt="8"></li>
+<li>将那两个EXE放在那个数字文件夹中并将这个文件夹命名为你想更新的浏览器的程序文件夹的名字，我这里演示是App<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-12_15-35-54.png" alt="9"></li>
+<li>将新版本App文件夹覆盖到旧版App，如下面的动图<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/19.gif" alt="10"><br>好了，我们更新好了<blockquote>
+<p>旧版中应该有chrome++的dll，更新后才是便携版</p>
+</blockquote>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2></li>
+</ol>
+<ul>
+<li>自动生成桌面快捷方式的bat文件<blockquote>
+<p>笔者不知道有没有用，但既然有就分享一下</p>
+</blockquote>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">set</span> WshShell = WScript.CreateObject(&quot;WScript.Shell&quot;)&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> strDesktop = WshShell.SpecialFolders(&quot;Desktop&quot;)&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="built_in">set</span> oShellLink = WshShell.CreateShortcut(strDesktop ^&amp; &quot;\Google Chrome.lnk&quot;)&gt;&gt;tmp.vbs #改名字 </span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.TargetPath =&quot;%~dp0.\App\chrome.exe&quot;&gt;&gt;tmp.vbs #改目录</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.WindowStyle =&quot;<span class="number">1</span>&quot;&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.Hotkey = &quot;CTRL+<span class="built_in">SHIFT</span>+Q&quot;&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.IconLocation = &quot;%~dp0.\App\chrome.exe, <span class="number">0</span>&quot;&gt;&gt;tmp.vbs #改快捷方式图标索引</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.Description = &quot;Google Chrome&quot;&gt;&gt;tmp.vbs #改名字</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.WorkingDirectory = strDesktop&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> oShellLink.Save&gt;&gt;tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="keyword">call</span> tmp.vbs</span><br><span class="line"></span><br><span class="line"><span class="built_in">del</span> /f /q tmp.vbs</span><br></pre></td></tr></table></figure></li>
+<li>Chrome++的数据文件夹Date是不分32，64位浏览器，分享制作的话很方便</li>
+<li>笔者分享一个笔者制作的优化版浏览器吧，也是Chrome++，还加了一些扩展，脚本 <a href="https://cloud.189.cn/web/share?code=RZFRzq3Q7nmu">下载地址，提取码：yv9t</a><br>这篇文章结束了，感谢大家的观看</li>
+</ul>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>浏览器</tag>
       </tags>
   </entry>
 </search>
