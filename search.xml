@@ -4,32 +4,19 @@
     <title>录屏截图GIF录制桌面软件推荐</title>
     <url>/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>常常有人问：如何截屏？如何录GIF？如何截图？笔者就在这里给大家统一推荐一下</p>
-<h2 id="桌面录屏-OBS"><a href="#桌面录屏-OBS" class="headerlink" title="桌面录屏-OBS"></a>桌面录屏-OBS</h2><p>笔者  要推荐的就是大名鼎鼎的<a href="https://obsproject.com/">OBS</a>了，也许在大家的印象中，这就是个直播推流软件，毕竟软件官网如此写道。但是它的的录屏功能也尤为强大，不仅是桌面录屏还是指定窗口录制，它都可以完美胜任，且它的画质我认为是最好的。OBS是个开源软件，所以不用担心各种限制与广告，而且背后有大佬撑腰，所以也不用担心稳定性的问题。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/new_icon_small-r.png" alt="p1"></p>
+<h2 id="桌面录屏-OBS"><a href="#桌面录屏-OBS" class="headerlink" title="桌面录屏-OBS"></a>桌面录屏-OBS</h2><p>笔者  要推荐的就是大名鼎鼎的<a href="https://obsproject.com/">OBS</a>了，也许在大家的印象中，这就是个直播推流软件，毕竟软件官网如此写道。但是它的的录屏功能也尤为强大，不仅是桌面录屏还是指定窗口录制，它都可以完美胜任，且它的画质我认为是最好的。OBS是个开源软件，所以不用担心各种限制与广告，而且背后有大佬撑腰，所以也不用担心稳定性的问题。<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/new_icon_small-r.png" alt="p1"></p>
 <h3 id="录屏简易教程"><a href="#录屏简易教程" class="headerlink" title="录屏简易教程"></a>录屏简易教程</h3><p>虽然OBS如此好用，但它的使用也相对复杂，这里笔者就提一下简单的录屏教程。</p>
 <ol>
-<li><p>从官网下载软件包并安装，随后打开软件，点击场景下的加号以添加场景，在窗口中取一个名字，然后创建。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-52-01.png" alt="p2"></p>
-</li>
-<li><p>点击来源窗口下的加号，然后点击显示器采集。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-53-34.png" alt="p3"></p>
-</li>
-<li><p>在弹出的窗口中取一个喜欢的名字。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-54-56.png" alt="p4"></p>
-</li>
+<li>从官网下载软件包并安装，随后打开软件，点击场景下的加号以添加场景，在窗口中取一个名字，然后创建。<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-52-01.png" alt="p2"></li>
+<li>点击来源窗口下的加号，然后点击显示器采集。<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-53-34.png" alt="p3"></li>
+<li>在弹出的窗口中取一个喜欢的名字。<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-54-56.png" alt="p4"></li>
 </ol>
-<p>4.在弹出的窗口中点击确定，然后点击开始录制按钮就可以开始录制了，停止录制是在软件窗口中点击停止录制。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-55-53.png" alt="p4"></p>
+<p>4.在弹出的窗口中点击确定，然后点击开始录制按钮就可以开始录制了，停止录制是在软件窗口中点击停止录制。<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-55-53.png" alt="p4"></p>
 <hr>
-<p><strong>快捷键设置</strong></p>
-<p>点击文件-设置-热键就可以设置快捷键了，可以实现快捷键开始录制与关闭，还可以开始与暂停，窗口如下图，在这贴一下笔者的设置。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-56-29.png" alt="p6"></p>
-<p>其实OBS的设置与可玩性都非常强，因为本文是推荐文性质，所以不多加介绍，有兴趣与有特定需求的朋友可以自行百度，笔者在这只写非常非常基础的内容教程，望大家理解。</p>
+<p><strong>快捷键设置</strong><br>点击文件-设置-热键就可以设置快捷键了，可以实现快捷键开始录制与关闭，还可以开始与暂停，窗口如下图，在这贴一下笔者的设置。<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-17_18-56-29.png" alt="p6"><br>其实OBS的设置与可玩性都非常强，因为本文是推荐文性质，所以不多加介绍，有兴趣与有特定需求的朋友可以自行百度，笔者在这只写非常非常基础的内容教程，望大家理解。</p>
 <h2 id="桌面截图-Snipaste"><a href="#桌面截图-Snipaste" class="headerlink" title="桌面截图- Snipaste"></a>桌面截图- Snipaste</h2><p>市场上的截图软件可谓是百家争鸣，在这就推荐笔者最喜欢的<a href="https://www.snipaste.com/">Snipaste</a>吧。</p>
 <h3 id="功能演示"><a href="#功能演示" class="headerlink" title="功能演示"></a>功能演示</h3><p>Snipaste的功能特别简单，只需要简单的设置一下快捷键与保存位置与是否开机启动就可以了，下面是快捷键及其他设置的界面演示：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-18_19-49-40.png" alt="1"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-21.png" alt="11"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-26.png" alt="12"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-18_19-49-40.png" alt="100"><br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-21.png" alt="11"><br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-04-23_13-13-26.png" alt="12"></p>
 <hr>
 <p><strong>截屏并处理</strong></p>
 <p>正常的截屏，可以进行简易的处理，如下图</p>
@@ -176,11 +163,11 @@
     <title>用Chrome++制作便携Chrome浏览器</title>
     <url>/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/</url>
     <content><![CDATA[<hr>
-<h1 id="用Chrome-制作便携Chrome浏览器"><a href="#用Chrome-制作便携Chrome浏览器" class="headerlink" title="用Chrome++制作便携Chrome浏览器"></a>用Chrome++制作便携Chrome浏览器</h1><p>原版的Chrome有诸多不便，比如不可用的同步，反人类的设置和限制，当然，有压迫就有反抗，民间有诸多优秀的Chrome增强软件，比如：MyChrome,Greenchrome,Chrome++等，今天，笔者就给大家详细介绍一下Chrome++的使用教程。</p>
+<p>原版的Chrome有诸多不便，比如不可用的同步，反人类的设置和限制，当然，有压迫就有反抗，民间有诸多优秀的Chrome增强软件，比如：MyChrome,Greenchrome,Chrome++等，今天，笔者就给大家详细介绍一下Chrome++的使用教程。</p>
 <blockquote>
 <p>随着时间的推移可能会失效，请谨慎</p>
 </blockquote>
-<h2 id="1-Chrome-的功能列表"><a href="#1-Chrome-的功能列表" class="headerlink" title="1. Chrome++的功能列表"></a>1. Chrome++的功能列表</h2><ul>
+<h2 id="Chrome-的功能列表"><a href="#Chrome-的功能列表" class="headerlink" title="Chrome++的功能列表"></a>Chrome++的功能列表</h2><ul>
 <li>双击关闭标签页</li>
 <li>保留最后标签页（防止关闭最后一个标签页时关闭浏览器，点X不行）</li>
 <li>鼠标悬停标签栏滚动</li>
@@ -191,14 +178,14 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="2-准备事项"><a href="#2-准备事项" class="headerlink" title="2. 准备事项"></a>2. 准备事项</h2><ul>
+<h2 id="准备事项"><a href="#准备事项" class="headerlink" title="准备事项"></a>准备事项</h2><ul>
 <li>Chrome离线安装包 <a href="https://www.iplaysoft.com/tools/chrome/">下载链接</a></li>
 <li>Chrome++插件 <a href="https://nightly.link/shuax/chrome_plus/workflows/build/main">下载链接</a> <a href="https://github.com/shuax/chrome_plus">官网</a></li>
 <li>7-ZIP</li>
 <li>一定的动手能力</li>
 </ul>
 <p><strong>准备好了就一起来做吧！</strong></p>
-<h2 id="3-制作教程"><a href="#3-制作教程" class="headerlink" title="3. 制作教程"></a>3. 制作教程</h2><blockquote>
+<h2 id="制作教程"><a href="#制作教程" class="headerlink" title="制作教程"></a>制作教程</h2><blockquote>
 <p>多少位的浏览器用多少位的chrome++。笔者以64位作为演示，随着时间的推移，教程可以会有点陈旧</p>
 </blockquote>
 <ol>
@@ -207,7 +194,7 @@
 <li>将 Chrome-bin 文件夹中的两个exe放在那个以版本号为名的文件夹中，将 Chrome-bin 文件夹取一个你喜欢的名，笔者这里命名为 Chrome版本号为名的文件夹也取一个你喜欢的名，笔者这里命名为 APP<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-23-14.png" alt="3"></li>
 <li>将Chrome++的压缩包解压，得到一个dll<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_19-55-04.png" alt="4"></li>
 <li>将dll拖入到App文件夹（有chrome.exe的文件夹）<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-06-13.png" alt="5"></li>
-<li>运行chrome.exe 出现一下界面，这时，程序会创建Date存放数据，这就是一个便携版chrome了，你可以压缩打包随时使用<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-36-29.png" alt="6"><br>开始愉快地使用便携版浏览器吧🎇<h2 id="4-更新教程"><a href="#4-更新教程" class="headerlink" title="4.更新教程"></a>4.更新教程</h2><blockquote>
+<li>运行chrome.exe 出现一下界面，这时，程序会创建Date存放数据，这就是一个便携版chrome了，你可以压缩打包随时使用<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/Snipaste_2022-05-11_20-36-29.png" alt="6"><br>开始愉快地使用便携版浏览器吧🎇<h2 id="更新教程"><a href="#更新教程" class="headerlink" title="更新教程"></a>更新教程</h2><blockquote>
 <p>便携式浏览器更新比较麻烦，但也有一些软件支持自动更新，笔者这里演示一下如何手动更新</p>
 </blockquote>
 </li>
@@ -217,7 +204,7 @@
 <li>将新版本App文件夹覆盖到旧版App，如下面的动图<br><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/19.gif" alt="10"><br>好了，我们更新好了<blockquote>
 <p>旧版中应该有chrome++的dll，更新后才是便携版</p>
 </blockquote>
-<h2 id="5-后记"><a href="#5-后记" class="headerlink" title="5. 后记"></a>5. 后记</h2></li>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2></li>
 </ol>
 <ul>
 <li>自动生成桌面快捷方式的bat文件<blockquote>
