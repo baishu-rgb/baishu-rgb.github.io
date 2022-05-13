@@ -1,686 +1,216 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.1.0">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-minimal.css">
-  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
-
-<script class="next-config" data-name="main" type="application/json">{"hostname":"baishu-rgb.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-
-    <meta name="description" content="时间就像海绵里的水，挤一挤总是会有的">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Baishu08's Blog - 让世界更美好</title><meta name="keywords" content="教程与软件与日常"><meta name="author" content="Baishu08"><meta name="copyright" content="Baishu08"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="时间就像海绵里的水，挤一挤总是会有的">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Baishu08&#39;s Blog">
 <meta property="og:url" content="http://baishu-rgb.github.io/index.html">
 <meta property="og:site_name" content="Baishu08&#39;s Blog">
 <meta property="og:description" content="时间就像海绵里的水，挤一挤总是会有的">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:author" content="Baishu08">
 <meta property="article:tag" content="教程与软件与日常">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://baishu-rgb.github.io/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Baishu08\'s Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-05-13 08:12:25'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-<link rel="canonical" href="http://baishu-rgb.github.io/">
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
 
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
 
-
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
-
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Baishu08's Blog</title>
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-
-
-
-
-<link rel="dns-prefetch" href="waline-hexo-five.vercel.app">
-  <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
-
-  <main class="main">
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏" role="button">
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
-        <span class="toggle-line"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
-      <h1 class="site-title">Baishu08's Blog</h1>
-      <i class="logo-line"></i>
-    </a>
-      <p class="site-subtitle" itemprop="description">让世界更美好</p>
-  </div>
-
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-        <i class="fa fa-search fa-fw fa-lg"></i>
-    </div>
-  </div>
-</div>
-
-
-
-<nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
-        </a>
-      </li>
-  </ul>
-</nav>
-
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup"><div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off" maxlength="80"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close" role="button">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div class="search-result-container no-result">
-  <div class="search-result-icon">
-    <i class="fa fa-spinner fa-pulse fa-5x"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</div>
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-  
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-
-  <aside class="sidebar">
-
-    <div class="sidebar-inner sidebar-overview-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Baishu08"
-      src="/source/PandaDay_ZH-CN6584061291_UHD.jpg">
-  <p class="site-author-name" itemprop="name">Baishu08</p>
-  <div class="site-description" itemprop="description">时间就像海绵里的水，挤一挤总是会有的</div>
-</div>
-<div class="site-state-wrap site-overview-item animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-          <a href="/categories/">
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-          <a href="/tags/">
-        <span class="site-state-item-count">4</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="cc-license site-overview-item animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
-  </div>
-
-
-
-        </div>
-      </div>
-    </div>
-  </aside>
-  <div class="sidebar-dimmer"></div>
-
-
-    </header>
-
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-  <div class="reading-progress-bar"></div>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.1.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Baishu08's Blog</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Baishu08's Blog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/" title="用Chrome++制作便携Chrome浏览器"><img class="post_bg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="用Chrome++制作便携Chrome浏览器"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/" title="用Chrome++制作便携Chrome浏览器">用Chrome++制作便携Chrome浏览器</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-10T12:28:36.000Z" title="发表于 2022-05-10 20:28:36">2022-05-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></span></div><div class="content">
+用Chrome++制作便携Chrome浏览器原版的Chrome有诸多不便，比如不可用的同步，反人类的设置和限制，当然，有压迫就有反抗，民间有诸多优秀的Chrome增强软件，比如：MyChrome,Greenchrome,Chrome++等，今天，笔者就给大家详细介绍一下Chrome++的使用教程。
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
+随着时间的推移可能会失效，请谨慎
+
+1. Chrome++的功能列表
+双击关闭标签页
+保留最后标签页（防止关闭最后一个标签页时关闭浏览器，点X不行）
+鼠标悬停标签栏滚动
+按住右键时滚轮滚动标签栏
+便携设计，程序放在App目录，数据放在Data目录（不兼容原版数据，可以重装系统换电脑不丢数据）
+移除更新错误警告（因为是绿色版没有自动更新功能）
+就便携设计笔者还要夸一句，数据是64，32位通用的，给一个大大的赞👍
 
 
-    <div class="main-inner index posts-expand">
 
-    
+2. 准备事项
+Chrome离线安装包 下载链接
+Chrome++插件 下载链接 官网
+7-ZIP
+一定的动手能力
+
+准备好了就一起来做吧！
+3. 制作教程
+多少位的浏览器用多少位的chrome++。笔者以64位作为演示，随着时间的推移，教程可以会有点陈旧
 
 
-<div class="post-block">
-  
-  
+下载好Chr ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" title="录屏截图GIF录制桌面软件推荐"><img class="post_bg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="录屏截图GIF录制桌面软件推荐"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" title="录屏截图GIF录制桌面软件推荐">录屏截图GIF录制桌面软件推荐</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-23T05:39:32.000Z" title="发表于 2022-04-23 13:39:32">2022-04-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8E%A8%E8%8D%90/">推荐</a></span></div><div class="content">常常有人问：如何截屏？如何录GIF？如何截图？笔者就在这里给大家统一推荐一下
+桌面录屏-OBS笔者  要推荐的就是大名鼎鼎的OBS了，也许在大家的印象中，这就是个直播推流软件，毕竟软件官网如此写道。但是它的的录屏功能也尤为强大，不仅是桌面录屏还是指定窗口录制，它都可以完美胜任，且它的画质我认为是最好的。OBS是个开源软件，所以不用担心各种限制与广告，而且背后有大佬撑腰，所以也不用担心稳定性的问题。
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://baishu-rgb.github.io/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/">
+录屏简易教程虽然OBS如此好用，但它的使用也相对复杂，这里笔者就提一下简单的录屏教程。
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/source/PandaDay_ZH-CN6584061291_UHD.jpg">
-      <meta itemprop="name" content="Baishu08">
-    </span>
+从官网下载软件包并安装，随后打开软件，点击场景下的加号以添加场景，在窗口中取一个名字，然后创建。
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baishu08's Blog">
-      <meta itemprop="description" content="时间就像海绵里的水，挤一挤总是会有的">
-    </span>
 
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Baishu08's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/" class="post-title-link" itemprop="url">用Chrome++制作便携Chrome浏览器</a>
-        </h2>
+点击来源窗口下的加号，然后点击显示器采集。
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2022-05-10 20:28:36" itemprop="dateCreated datePublished" datetime="2022-05-10T20:28:36+08:00">2022-05-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-05-12 15:53:09" itemprop="dateModified" datetime="2022-05-12T15:53:09+08:00">2022-05-12</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a>
-        </span>
-    </span>
+在弹出的窗口中取一个喜欢的名字。
 
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Waline：</span>
-  
-    <a title="waline" href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/#waline" itemprop="discussionUrl">
-      <span class="post-comments-count waline-comment-count" data-path="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.2k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
 
-        </div>
-      </header>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <hr>
-<h1 id="用Chrome-制作便携Chrome浏览器"><a href="#用Chrome-制作便携Chrome浏览器" class="headerlink" title="用Chrome++制作便携Chrome浏览器"></a>用Chrome++制作便携Chrome浏览器</h1><p>原版的Chrome有诸多不便，比如不可用的同步，反人类的设置和限制，当然，有压迫就有反抗，民间有诸多优秀的Chrome增强软件，比如：MyChrome,Greenchrome,Chrome++等，今天，笔者就给大家详细介绍一下Chrome++的使用教程。</p>
-<blockquote>
-<p>随着时间的推移可能会失效，请谨慎</p>
-</blockquote>
-<h2 id="1-Chrome-的功能列表"><a href="#1-Chrome-的功能列表" class="headerlink" title="1. Chrome++的功能列表"></a>1. Chrome++的功能列表</h2>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+4.在弹出的窗口中点击确定，然后点击开始录制按钮就可以开始录制了，停止录制是在软件窗口中点击停止录制。
+
+
+快捷键设置
+点击文件-设置-热键就可以设置快捷键了，可以实现快捷键开始录制与关闭，还可以开始与暂停，窗口如下图，在这贴一下笔者的设置。
+
+其实OBS的设置与可玩性都非常强，因为本文是推荐文性质，所以不多加介绍 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/" title="教程：全网通用视频下载"><img class="post_bg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="教程：全网通用视频下载"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/" title="教程：全网通用视频下载">教程：全网通用视频下载</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-04-09T12:15:10.000Z" title="发表于 2022-04-09 20:15:10">2022-04-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%99%E7%A8%8B/">教程</a></span></div><div class="content">
+
+现在的视频网站越来越离谱，一不给下载视频，二给下载视频还加密，三下载视频还会限速，不过，只要掌握了lux yt-dlp 的配置和用法，就不会被这些视频网站宰割了（注意：本文有大量高清图片和GIF动图作辅助演示只用，请注意流量！
+
+1. 准备阶段
+下载好FFmpeg &amp; lux &amp; yt-dlp 的文件，下载好如下图：
+
+
+将它们复制到一个专门的文件夹，然后解压，再然后为他们创建同名文件夹，并将文件存于同名文件夹中注意，文件夹目录中不能出现任何中文，否则会出现BUG！，如下图
+
+设置系统变量的Path，注意，ffmpeg是添加bin文件夹，其他是添加程序所在的文件夹，如一下GIF动图演示
+
+
+打开CMD窗口，依次输入 ffmpeg lux yt-dlp 已检测是否添加成功，出现以下界面即为成功
+现在就可以用yt-dlp和lux下载视频了！:D
+
+
+2. lux 的使用教程lux和yt-dlp相比，不支持配置文件，这是一个遗憾，但它更适合国内视频的下载
+2.1. 基础常用命令lux是命令行程序，需要在CMD输入指令使用，不同的设置指令(前面应该加一个空格)可以搭配使用， ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Baishu08</div><div class="author-info__description">时间就像海绵里的水，挤一挤总是会有的</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/" title="用Chrome++制作便携Chrome浏览器"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="用Chrome++制作便携Chrome浏览器"/></a><div class="content"><a class="title" href="/2022/05/10/%E7%94%A8Chrome++%E5%88%B6%E4%BD%9C%E4%BE%BF%E6%90%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8/" title="用Chrome++制作便携Chrome浏览器">用Chrome++制作便携Chrome浏览器</a><time datetime="2022-05-10T12:28:36.000Z" title="发表于 2022-05-10 20:28:36">2022-05-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" title="录屏截图GIF录制桌面软件推荐"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="录屏截图GIF录制桌面软件推荐"/></a><div class="content"><a class="title" href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" title="录屏截图GIF录制桌面软件推荐">录屏截图GIF录制桌面软件推荐</a><time datetime="2022-04-23T05:39:32.000Z" title="发表于 2022-04-23 13:39:32">2022-04-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/" title="教程：全网通用视频下载"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="教程：全网通用视频下载"/></a><div class="content"><a class="title" href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/" title="教程：全网通用视频下载">教程：全网通用视频下载</a><time datetime="2022-04-09T12:15:10.000Z" title="发表于 2022-04-09 20:15:10">2022-04-09</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-<div>
-  
-</div>
-
-<div>
-    
-</div>
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://baishu-rgb.github.io/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/source/PandaDay_ZH-CN6584061291_UHD.jpg">
-      <meta itemprop="name" content="Baishu08">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baishu08's Blog">
-      <meta itemprop="description" content="时间就像海绵里的水，挤一挤总是会有的">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Baishu08's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" class="post-title-link" itemprop="url">录屏截图GIF录制桌面软件推荐</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-04-23 13:39:32 / 修改时间：17:34:57" itemprop="dateCreated datePublished" datetime="2022-04-23T13:39:32+08:00">2022-04-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%8E%A8%E8%8D%90/" itemprop="url" rel="index"><span itemprop="name">推荐</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Waline：</span>
-  
-    <a title="waline" href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/#waline" itemprop="discussionUrl">
-      <span class="post-comments-count waline-comment-count" data-path="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>948</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>常常有人问：如何截屏？如何录GIF？如何截图？笔者就在这里给大家统一推荐一下</p>
-<h2 id="桌面录屏-OBS"><a href="#桌面录屏-OBS" class="headerlink" title="桌面录屏-OBS"></a>桌面录屏-OBS</h2><p>笔者  要推荐的就是大名鼎鼎的<a target="_blank" rel="noopener" href="https://obsproject.com/">OBS</a>了，也许在大家的印象中，这就是个直播推流软件，毕竟软件官网如此写道。但是它的的录屏功能也尤为强大，不仅是桌面录屏还是指定窗口录制，它都可以完美胜任，且它的画质我认为是最好的。OBS是个开源软件，所以不用担心各种限制与广告，而且背后有大佬撑腰，所以也不用担心稳定性的问题。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/new_icon_small-r.png" alt="p1"></p>
-<h3 id="录屏简易教程"><a href="#录屏简易教程" class="headerlink" title="录屏简易教程"></a>录屏简易教程</h3>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/04/23/2022-4-23-%E6%88%AA%E5%B1%8F%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-<div>
-  
-</div>
-
-<div>
-    
-</div>
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://baishu-rgb.github.io/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/source/PandaDay_ZH-CN6584061291_UHD.jpg">
-      <meta itemprop="name" content="Baishu08">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Baishu08's Blog">
-      <meta itemprop="description" content="时间就像海绵里的水，挤一挤总是会有的">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Baishu08's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/" class="post-title-link" itemprop="url">教程：全网通用视频下载</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-04-09 20:15:10" itemprop="dateCreated datePublished" datetime="2022-04-09T20:15:10+08:00">2022-04-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-04-23 17:34:45" itemprop="dateModified" datetime="2022-04-23T17:34:45+08:00">2022-04-23</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">教程</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Waline：</span>
-  
-    <a title="waline" href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/#waline" itemprop="discussionUrl">
-      <span class="post-comments-count waline-comment-count" data-path="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.7k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <hr>
-<blockquote>
-<p>现在的视频网站越来越离谱，一不给下载视频，二给下载视频还加密，三下载视频还会限速，不过，只要掌握了lux yt-dlp 的配置和用法，就不会被这些视频网站宰割了（注意：本文有大量高清图片和GIF动图作辅助演示只用，请注意流量！</p>
-</blockquote>
-<h2 id="1-准备阶段"><a href="#1-准备阶段" class="headerlink" title="1. 准备阶段"></a>1. 准备阶段</h2><ol>
-<li><p>下载好<a target="_blank" rel="noopener" href="https://github.com/BtbN/FFmpeg-Builds/releases">FFmpeg</a> &amp; <a target="_blank" rel="noopener" href="https://github.com/iawia002/lux/releases">lux</a> &amp; <a target="_blank" rel="noopener" href="https://github.com/yt-dlp/yt-dlp/releases">yt-dlp</a> 的文件，下载好如下图：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/LP1.png" alt="1"></p>
-</li>
-<li><p>将它们复制到一个专门的文件夹，然后解压，再然后为他们创建同名文件夹，并将文件存于同名文件夹中<em><strong>注意，文件夹目录中不能出现任何中文，否则会出现BUG！</strong></em>，如下图</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/LP2.png" alt="2"></p>
-<p>设置系统变量的Path，注意，ffmpeg是添加bin文件夹，其他是添加程序所在的文件夹，如一下GIF动图演示</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/LG1.gif" alt="3"></p>
-</li>
-<li><p>打开CMD窗口，依次输入 ffmpeg lux yt-dlp 已检测是否添加成功，出现以下界面即为成功</p>
-<p><img src="https://cdn.jsdelivr.net/gh/baishu-rgb/picroom@main/img/LP3.png" alt="4"><br>现在就可以用yt-dlp和lux下载视频了！:D</p>
-</li>
-</ol>
-<h2 id="2-lux-的使用教程"><a href="#2-lux-的使用教程" class="headerlink" title="2. lux 的使用教程"></a>2. lux 的使用教程</h2>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/04/09/2022-4-8-%E8%A7%86%E9%A2%91%E4%B8%8B%E8%BD%BD%E6%95%99%E7%A8%8B/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-<div>
-  
-</div>
-
-<div>
-    
-</div>
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-
-</div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-
-
-<div class="copyright">
-  &copy; 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Baishu08</span>
-</div>
-<div class="wordcount">
-  <span class="post-meta-item">
-    <span class="post-meta-item-icon">
-      <i class="fa fa-chart-line"></i>
-    </span>
-      <span>站点总字数：</span>
-    <span title="站点总字数">4k</span>
-  </span>
-  <span class="post-meta-item">
-    <span class="post-meta-item-icon">
-      <i class="fa fa-coffee"></i>
-    </span>
-      <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
-  </span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
-
-    </div>
-  </footer>
-
-  
-  <script size="300" alpha="0.6" zIndex="-1" src="https://cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@next-theme/pjax@0.5.0/pjax.min.js" integrity="sha256-3NkoLDrmHLTYj7csHIZSr0MHAFTXth7Ua/DDt4MRUAg=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
-
-  
-<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
-<script src="/js/third-party/search/local-search.js"></script>
-
-  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.7/pdfobject.min.js","integrity":"sha256-ph3Dk89VmuTVXG6x/RDzk53SU9LPdAh1tpv0UvnDZ2I="},"url":"/lib/pdf/web/viewer.html"}</script>
-  <script src="/js/third-party/tags/pdf.js"></script>
-
-
-
-  <script src="/js/third-party/pace.js"></script>
-
-  
-
-
-
-
-<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"waline-hexo-five.vercel.app","cssUrl":"//unpkg.com/@waline/client@v2/dist/waline.css","locale":{"placeholder":"Welcome to comment"},"emoji":["//unpkg.com/@waline/emojis@1.0.1/weibo"],"commentCount":true,"pageview":false,"placeholder":"请文明评论呀，支持MD等","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":true,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/"}</script>
-<link rel="stylesheet" href="//unpkg.com/@waline/client@v2/dist/waline.css">
-<script>
-document.addEventListener('page:loaded', () => {
-  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
-    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
-  ).then(() => 
-    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
-  );
-});
-</script>
-
-</body>
-</html>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%8E%A8%E8%8D%90/"><span class="card-category-list-name">推荐</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">教程</span><span class="card-category-list-count">2</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E4%B8%8B%E8%BD%BD/" style="font-size: 1.1em; color: #999">下载</a> <a href="/tags/%E5%9B%BE%E7%89%87/" style="font-size: 1.1em; color: #999">图片</a> <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 1.1em; color: #999">浏览器</a> <a href="/tags/%E8%A7%86%E9%A2%91/" style="font-size: 1.5em; color: #99a9bf">视频</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/04/"><span class="card-archive-list-date">四月 2022</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">3</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-05-13T00:12:25.052Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Baishu08</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
