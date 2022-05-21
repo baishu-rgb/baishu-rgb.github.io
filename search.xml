@@ -232,6 +232,7 @@
 <h4 id="CDN-加速"><a href="#CDN-加速" class="headerlink" title="CDN 加速"></a>CDN 加速</h4><p>Upgit 内置了 JsDelivr 取消注释即可自动开启</p>
 <figure class="highlight toml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 如果您的网络访问Github异常或者缓慢，您可以尝试下面的配置以开启CDN加速</span></span><br><span class="line"> <span class="section">[replacements]</span></span><br><span class="line"> <span class="attr">&quot;raw.githubusercontent.com&quot;</span> = <span class="string">&quot;cdn.jsdelivr.net/gh&quot;</span></span><br><span class="line"> <span class="attr">&quot;/master&quot;</span> = <span class="string">&quot;@master&quot;</span></span><br></pre></td></tr></table></figure>
 
+<p>注意，第二个 前后的 <strong>master</strong> 改为你的<strong>仓库分支名！</strong></p>
 <h4 id="设置-Github-账号用户名"><a href="#设置-Github-账号用户名" class="headerlink" title="设置 Github 账号用户名"></a>设置 Github 账号用户名</h4><figure class="highlight toml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 您的 Gtihub 用户名 </span></span><br><span class="line"><span class="attr">username</span> = <span class="string">&quot;baishu08&quot;</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
@@ -301,7 +302,7 @@
 <h2 id="与-Typora-的配合使用"><a href="#与-Typora-的配合使用" class="headerlink" title="与 Typora 的配合使用"></a>与 Typora 的配合使用</h2><ol>
 <li>打开文件&gt;偏好设置&gt;图像</li>
 <li>在上传服务设定中选择 <strong>Custom Command</strong></li>
-<li>在命令中填写 <strong>upgit.exe</strong> 的目录，要加英文双引号 如***”D:\test\upgit.exe”***</li>
+<li>在命令中填写 <strong>upgit.exe</strong> 的目录，要加英文双引号 如 <em><strong>“D:\test\upgit.exe”</strong></em></li>
 <li>点击<strong>验证图片上传选项</strong>，提示成为即为成功</li>
 </ol>
 <h2 id="实际演示"><a href="#实际演示" class="headerlink" title="实际演示"></a>实际演示</h2><p>笔者认为按照上面的教程就足够了，但为了更好地理解，我会做一些常用的命令的演示</p>
